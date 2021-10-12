@@ -23,7 +23,7 @@ class Reliability:
     def develop(self):
         do = 2
         min = 1
-        dong = 1.5
+        dong = 1
         ji = 3
 
     def algorithm(self):
