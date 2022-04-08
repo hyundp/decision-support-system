@@ -12,8 +12,9 @@ g = float(input("7. 사회적으로 얼만큼 인정받을 수 있는가? (0 ~ 1
 h = float(input("8. 그 일을 시작하는 것이 얼만큼 쉬운가? (0 ~ 1)\n"))*0.4
 i = float(input("9. 그 일을 지속하는 것이 얼만큼 쉬운가? (0 ~ 1)\n"))*0.5
 j = float(input("10. 그 일을 하는 것이 사랑하는 사람들을 얼만큼 위한 일인가? (0 ~ 1)\n"))*0.7
+k = float(input("11. 이 일을 할 때 얼만큼 행복한가? (0 ~ 1)\n"))*0.7
 
-question_list = [a, b, c, d, e, f, g, h, i, j]
+question_list = [a, b, c, d, e, f, g, h, i, j, k]
 m = sum(question_list) / len(question_list)
 
 print("합계 : ", m)
