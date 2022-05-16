@@ -11,29 +11,24 @@ class Reliability:
     def business(self):
         do = 3
         min = 1.5
-        dong = 1
-        ji = 1
+        go = 1
 
     def design(self):
         do = 1
         min = 3
-        dong = 1
-        ji = 1.5
+        go = 3
 
-    def develop(self):
+    def web_develop(self):
         do = 2
-        min = 1
-        dong = 1
-        ji = 3
+        min = 0.5
+        go = 2
 
     def algorithm(self):
-        do = 2
-        dong = 3
-        min = 1
-        ji = 1.5
+        do = 3
+        min = 2
+        go = 2
 
     def marketing(self):
         do = 1
-        dong = 1
-        ji = 1
         min = 2
+        go = 1.9
